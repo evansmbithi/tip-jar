@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  
+}
+
+.message{
+  max-width: 80rem;
+  min-width: 30rem;
+  background-color: rgba(0, 0, 0, 0.075);
+  border-radius: 30px;
+  padding: 30px;
+  margin: 40px;
+  position: relative;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  letter-spacing: .1px;
+  text-align: justify;
+}
+
+.open{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -35%);
+  font-family: 'Montagu Slab', serif;
+  font-size: 20rem;
+  font-weight: bold;
+  opacity: .2;
+  color: dodgerblue;
+  z-index: -2;
+}
+
+.salut{
+  display: block;
+  padding-bottom: 1.5rem;
+}
+
+.hash-tag{
+  display: block;
+  padding: 1.5rem 0;
+}
+
+.tip-me{
+  text-align: center;
+  /* margin: 0 10rem; */
+}
+
+.tip-jar:link,
+.tip-jar:visited{
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.tip-here{
+  position: absolute;
+  left: 15px;
+  top: 12px;
+}
