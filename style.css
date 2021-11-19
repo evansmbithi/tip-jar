@@ -24,7 +24,7 @@ body{
   font-size: 1.6rem;
   line-height: 1.8;
   letter-spacing: .2px;
-  /* text-align: justify; */
+  /* text-align: center; */
 }
 
 @media (min-width: 768px){
