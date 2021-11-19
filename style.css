@@ -23,13 +23,14 @@ body{
   position: relative;
   font-size: 1.6rem;
   line-height: 1.8;
-  letter-spacing: .2px;
+  /* letter-spacing: .2px; */
   /* text-align: center; */
 }
 
 @media (min-width: 768px){
   .message{
     padding-bottom: 4rem;
+    margin: 40px;
   }
 }
 
